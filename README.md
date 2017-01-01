@@ -1,5 +1,7 @@
 # Acceptance testing a Dropwizard app with Cucumber
 
+[Csaba Palfi](https://csabapalfi.github.io), Mar 2014
+
 **[Dropwizard](http://www.dropwizard.io/)** is a 'damn **simple** library for building production-ready **RESTful** web services'. It's an opininated selection of a number of **lightweight** Java libraries and wonderful for building **microservices**. The [ThoughtWorks Tech Radar](http://www.thoughtworks.com/radar) now also [has it in it's adopt circle](http://www.thoughtworks.com/radar/#/languages-and-frameworks/519).
 
 I'm also a big fan of **BDD** and love **[Cucumber](http://cukes.info/)** and it's [version on the JVM](https://github.com/cucumber/cucumber-jvm). It's **not just a test framework** but more of a **[collaboration tool](https://cucumber.pro/blog/2014/03/03/the-worlds-most-misunderstood-collaboration-tool.html)**. That's one of the reasons why I much prefer it to just writing acceptance tests with JUnit.
@@ -45,3 +47,5 @@ public void setUp() throws Exception {
 ```
 
 This worked for me perfectly fine.
+
+![](https://ga-beacon.appspot.com/UA-29212656-1/dropwizard-and-cucumber?pixel)
